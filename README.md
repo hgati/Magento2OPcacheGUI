@@ -1,4 +1,4 @@
-# Magento 2 OPcache GUI
+# Magento 2 OPcache GUI (supported Jit buffer usage)
 
 Magento 2 Opcache Control GUI using React Frontend Micro-services . 
 
