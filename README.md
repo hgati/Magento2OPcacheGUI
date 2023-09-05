@@ -2,7 +2,7 @@
 
 Magento 2 Opcache Control GUI using React Frontend Micro-services . 
 
-![MAgento 2 Opcache GUI](https://github.com/Hgati/Magento2OPcacheGUI/raw/main/hgati-opcache-gui.webp)
+![MAgento 2 Opcache GUI](https://github.com/hgati/magento2-opcache-gui/raw/main/hgati-opcache-gui.webp)
 
 # Where to find in the Admin Menu
 
