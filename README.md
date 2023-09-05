@@ -40,5 +40,4 @@ Magento 2 is CPU intensive platform due to bad framework design. You shold use t
 
 ![Magento 2 PHP performance](https://github.com/Hgati/Magento2OPcacheGUI/raw/main/opcache-jit-performance.webp)
 
-AWS C5.large has *0.00532* PHP 8.2.9 performance score (less is beter).
-AWS R5.xlrge has *0.0059* PHP 8.2.9 performance score (less is beter).
+Vultr High Frequency (3GHz+ Intel Xeon CPUs and NVMe SSD) has *0.00532* PHP 8.2.9 performance score
