@@ -10,6 +10,27 @@
     font-size: 20px;
     font-weight: 600;
     }
+    pre {
+    background-color: #f6f8fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    }
+    code {
+    font-family: monospace;
+    color: #333;
+    }
+    pre {
+    background-color: #f6f8fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    }
+    code {
+    font-family: 'Segoe UI';
+    color: #333;
+    font-size: 15pt;
+    }
 </style>
 
 <?php
@@ -24,6 +45,10 @@ for ($a = 0; $a < 10000000; $a++) { $b = $a*$a; }
 $end = microtime(TRUE);
 return $end - $start;
 }
+
+$sample = '<pre><code>for ($a = 0; $a < 10000000; $a++) { $b = $a*$a; }</code></pre>';
+echo $sample;
+
 echo "<div class='test-result'> > The Test code snippet took " . testPHP() . " seconds to complete. </div>";
 echo "<div class='test-result'> > The Test code snippet took " . testPHP() . " seconds to complete. </div>";
 echo "<div class='test-result'> > The Test code snippet took " . testPHP() . " seconds to complete. </div>";
